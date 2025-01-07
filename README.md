@@ -25,4 +25,10 @@ These CSS snippets are tested and compatible with Obsidian version **1.4.16** wi
 ## How to use
 
 1. Open **Settings**.
-2. Under **Appearence → CSS snippets**. select **Open snippets folder, create a CSS file that contains your snippet.
+2. Under **Appearence → CSS snippets**. select **Open snippets folder** (folder icon).
+3. In the snippets folder, create a CSS file that contains your snippet.
+4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** (refresh icon) to see the snippet in the list.
+
+**Two Options:**
+
+1. **Download Entire Vault:**

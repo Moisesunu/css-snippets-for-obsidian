@@ -1,0 +1,30 @@
+/*---------------Centrar Imagen----------------*/
+img.emoji{    
+    display: inline;
+}
+img {
+    display: block;
+    max-width: 90%;
+    padding: 0 auto 0 auto;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px; }
+
+/*---------------Centrar Iframe----------------*/
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.screenplay {
+    width: 90%;
+}
+
+div.el-pre.mod-frontmatter.mod-ui.obsidian-banner-wrapper {
+    margin-top: 0px;
+}

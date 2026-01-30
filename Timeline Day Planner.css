@@ -1,0 +1,77 @@
+/*--------------------------------------------- DAY PLANNER PLUGIN ---------------------------------------------*/
+/* Extrido del tema Yin and Yang*/ 
+.header_title.svelte-e43ld1.svelte-e43ld1, .ei_Title.svelte-e43ld1.svelte-e43ld1, .ce_title.svelte-e43ld1.svelte-e43ld1,
+.ei_Copy.svelte-e43ld1.svelte-e43ld1, .ei_Title.svelte-e43ld1.svelte-e43ld1 {
+  color: var(--text-normal) !important;
+}
+
+.theme-light .event_item.svelte-e43ld1.svelte-e43ld1{
+background-color: transparent !important;
+border-bottom: 2px solid var(--background-modifier-border) !important;
+transition: 200ms !important;
+}
+
+.theme-light .event_item.svelte-e43ld1.svelte-e43ld1:hover{
+transition: 200ms !important;
+background-color: var(--background-primary-alt) !important;
+box-shadow: none !important;
+}
+
+.theme-dark .event_item.svelte-e43ld1.svelte-e43ld1{
+background-color: transparent !important;
+border-bottom: 2px solid var(--background-modifier-border) !important;
+transition: 200ms !important;
+}
+
+.theme-dark .event_item.svelte-e43ld1.svelte-e43ld1:hover{
+transition: 200ms !important;
+background-color: var(--background-primary-alt) !important;
+box-shadow: none !important;
+}
+
+.aside__line.svelte-e43ld1.svelte-e43ld1 {
+  width: 2px !important;
+  background: var(--background-modifier-border) !important;
+}
+
+.ei_Dot.svelte-e43ld1.svelte-e43ld1{
+border-radius: 2px !important;
+}
+
+#now-line.svelte-e43ld1.svelte-e43ld1 {
+  height: 3px !important;
+  background-color: red !important;
+}
+
+.timeline-time.svelte-e43ld1{
+border-radius: 3px !important;
+background-color: red !important;
+}
+
+.status-bar-item-segment.day-planner-status-bar-text > strong{
+color: var(--text-muted) !important;
+}
+
+input#auto-scroll.toggle.svelte-e43ld1{
+background-color: var(--text-muted) !important;
+border-radius: 3px !important;
+font: var(--font-monospace) !important;
+background-image: none !important;
+box-shadow: none !important;
+width: 19% !important;
+}
+
+#scroll-controls.svelte-e43ld1 .toggle.svelte-e43ld1:before {
+border-radius: 3px !important;
+font-size: 10px !important;
+font-family: var(--font-monospace) !important;
+}
+
+.day-planner-status-card{
+top: -100px !important;
+}
+
+/* Para que no aparezca texto en la barra de estado - Editado por @jaiderbec */
+.day-planner-status-bar-text {
+  display: none !important;
+}

@@ -1,0 +1,36 @@
+/* STATUS BAR*/
+/* Extrido del tema Yin and Yang*/ 
+.is-translucent .status-bar{
+border: .025em solid var(--background-modifier-border);
+}
+
+.is-translucent .status-bar:hover{
+ opacity: .9;
+}
+
+.status-bar,
+.is-translucent .status-bar{
+opacity: 0;
+transition: 200ms;
+}
+
+.status-bar:hover{
+opacity: 1;
+transition: 200ms;
+}
+
+body .lt-predictions-container {
+  font-family: var(--default-font);
+  font-size: 14px;
+  border: .025em solid var(--background-modifier-border);
+}
+
+body .lt-buttoncontainer > button {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-normal);
+  padding: 4px 14px;
+  background: var(--mod-button);
+  border: .025em solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+}

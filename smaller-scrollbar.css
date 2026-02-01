@@ -1,6 +1,0 @@
-/* smaller scrollbar */
-.CodeMirror-vscrollbar,
-.CodeMirror-hscrollbar,
-::-webkit-scrollbar {
-    width: 3px;
-}
